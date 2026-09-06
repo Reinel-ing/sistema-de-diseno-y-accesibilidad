@@ -45,7 +45,6 @@ flutter test
 
 ## Estructura principal
 
-\`\`\`
 lib/
 ├── main.dart                      # Punto de entrada de la aplicacion
 ├── theme.dart                     # Tema visual
@@ -60,7 +59,6 @@ lib/
     ├── app.dart                    # Configuracion principal de MaterialApp
     └── product/
         └── product_view.dart       # Vista de productos
-\`\`\`
 
 ## Prototipo en Figma
 
