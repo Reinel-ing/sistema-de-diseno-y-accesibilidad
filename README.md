@@ -45,20 +45,20 @@ flutter test
 
 ## Estructura principal
 
-lib/
-├── main.dart                      # Punto de entrada de la aplicacion
-├── theme.dart                     # Tema visual
-├── models/
-│   ├── category.dart               # Modelo de categoria
-│   └── product.dart                # Modelo de producto
-├── providers/
-│   └── product_providers.dart      # Estado y proveedores Riverpod
-├── services/
-│   └── product_service.dart        # Peticiones a DummyJSON
-└── ui/
-    ├── app.dart                    # Configuracion principal de MaterialApp
-    └── product/
-        └── product_view.dart       # Vista de productos
+    lib/
+    |-- main.dart                      # Punto de entrada de la aplicacion
+    |-- theme.dart                     # Tema visual
+    |-- models/
+    |   |-- category.dart              # Modelo de categoria
+    |   +-- product.dart               # Modelo de producto
+    |-- providers/
+    |   +-- product_providers.dart     # Estado y proveedores Riverpod
+    |-- services/
+    |   +-- product_service.dart       # Peticiones a DummyJSON
+    +-- ui/
+        |-- app.dart                   # Configuracion principal de MaterialApp
+        +-- product/
+            +-- product_view.dart      # Vista de productos
 
 ## Prototipo en Figma
 
